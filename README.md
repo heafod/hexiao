@@ -1,8 +1,9 @@
 # Go Gin Example
 gin 的一个例子，包含许多有用特性
 
-**重要**
-本项目代码参照 https://github.com/eddycjy/go-gin-example 一步步学习记录的。
+**重要**  
+
+本项目代码参照 https://github.com/eddycjy/go-gin-example 一步步学习记录的。  
 其项目已提供[Gin实践](https://github.com/EDDYCJY/go-gin-example/blob/master/README_ZH.md)，可参考系列文章学习。
 
 ## 如何运行
@@ -17,7 +18,7 @@ gin 的一个例子，包含许多有用特性
 ### 配置
 你应该修改 config/app.ini 配置文件
 
-运行
+### 运行
 ```
 go run main.go 
 ```
