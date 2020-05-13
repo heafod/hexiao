@@ -1,0 +1,9 @@
+FROM golang:latest
+
+ENV GOPROXY https://goproxy.cn,direct
+WORKDIR /data/devops-hexiao
+COPY . /data/devops-hexiao
+RUN go build .
+
+EXPOSE 8000
+ENTRYPOINT ["./hexiao"]
